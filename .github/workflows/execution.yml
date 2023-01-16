@@ -2,7 +2,7 @@ name: actions-verification
 'on': push
 jobs:
   my-job:
-    runs-on: https://dev-tstjenkins.tekion.xyz/job/RO_CICD
+    runs-on: ubuntu-latest
     steps:
-      - name: my-expe
+      - name: https://dev-tstjenkins.tekion.xyz/job/RO_CICD
         run: clean test -PsuiteXmlFile=$TestNGxml
