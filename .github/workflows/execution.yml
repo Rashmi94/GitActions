@@ -1,8 +1,8 @@
-name: hello-world
+name: actions-verification
 'on': push
 jobs:
   my-job:
-    runs-on: ubuntu-latest
+    runs-on: https://dev-tstjenkins.tekion.xyz/job/RO_CICD
     steps:
-      - name: my-step
-        run: echo "hello world!"
+      - name: my-expe
+        run: clean test -PsuiteXmlFile=$TestNGxml
