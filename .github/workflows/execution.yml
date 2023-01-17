@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Service'
-        run: sh 'clean test -PsuiteXmlFile=$TestNGxml'
+        run: sh 'mvn clean install'
