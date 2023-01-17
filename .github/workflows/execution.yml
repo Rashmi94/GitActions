@@ -4,5 +4,5 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: https://dev-tstjenkins.tekion.xyz/job/RO_CICD
+      - name: 'https://dev-tstjenkins.tekion.xyz/job/RO_CICD'
         run: clean test -PsuiteXmlFile=$TestNGxml
